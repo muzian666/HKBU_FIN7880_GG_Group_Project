@@ -30,13 +30,13 @@ You have to install Docker on your device. And the Docker is running. Here is th
 After you install the Docker, go to release and found the package version that you want to use. Here is following different version of this project:
 ```
 HONKAI Lite:
-This version only provide you with similarity search, not add LLM function inside.
+This version only provides you with only similarity search with no added LLM function.
 
 HONKAI Pro:
-This version provide the similarity search with local LLM function. The system will first found the related information first and answer you with the related information.
+This version provides the similarity search with local LLM function. The system will first find the related information  and answer you with the related information.
 
 HONKAI Online:
-This version provide the close source LLM model access ability. You can use any different close source LLM model. Compatible with OpenAI, Claude, ChatGLM, Yi... (Any platform that compatible with openai python package.)
+This version provides the close source LLM model access ability. You can use any different close source LLM model. Compatible with OpenAI, Claude, ChatGLM, Yi... (Any platform that compatible with openai python package.)
 ```
 | Close Source LLM Platform Link | [OpenAI](https://platform.openai.com/) | [Claude](https://console.anthropic.com/) | [ChatGLM](https://open.bigmodel.cn/) | [Yi](https://platform.lingyiwanwu.com/) | ... |
 | --- | --- | --- | --- | --- | --- |
