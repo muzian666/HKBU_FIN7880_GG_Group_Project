@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HONKAI Chat Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div id="conversationHeader">
+            <button id="newConversationBtn">Start New Conversation</button>
+            <span id="conversationTitle">HONKAI</span>
+            <button class="settings">Settings</button>
+        </div>
+        <div id="chatContainer">
+            <div id="chatWindow"></div>
+            <div id="inputContainer">
+                <textarea id="messageInput" placeholder="Type your message here..."></textarea>
+                <button id="sendBtn">Send</button>
+            </div>
+        </div>
+        <div class="loading" id="loading">Loading...</div>
+        <div class="error" id="error"></div>
+    </div>
+    <div id="settingsModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Settings</h2>
+            <div class="setting">
+                <label for="fontSizeInput">Font Size:</label>
+                <input type="range" id="fontSizeInput" min="12" max="24" value="16">
+            </div>
+            <div class="setting">
+                <label for="themeSelect">Theme:</label>
+                <select id="themeSelect">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

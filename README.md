@@ -27,6 +27,7 @@ You have to install Docker on your device. And the Docker is running. Here is th
 [Docker Install Link](https://www.docker.com/products/docker-desktop/)
 
 ## Quick Start
+### 1. Select the version in Release that you want to use
 After you install the Docker, go to release and found the package version that you want to use. Here is following different version of this project:
 ```
 HONKAI Lite:
@@ -43,5 +44,22 @@ This version provides the close source LLM model access ability. You can use any
 | Access Ability | No HK | Only USA | HK OK | HK OK | ... |
 | Price | Most Expensive | Cheaper than OpenAI | Cheap (Lots of Free Token) | Cheap (Free Token) | ... |
 
-### 
+### 2. Unzip
+Using any zip software to unzip the file. You will get one `docker-compose.yaml` and one `resources` folder.
+
+- If you are using `Lite` and `Online` version, there is only `vectordb` folder inside.
+
+- If you are using `Pro` version, there are `vectordb` and `model` folders inside.
+
+### 3. Start
+
+After that, no matter you are using `Mac` or `Windows`. Start the `Terminal`/`CMD`. Set the path to this root folder (the one you just unzip). And enter command `docker-compose up`. 
+
+Then after few minutes (around 2-3 for `Lite` and `Online`, if `Pro`, maybe longer), open any browser you have, and enter the `localhost`. Try to input something. (It maybe slow for the first time you input.). If there is return and no error, then means deployment is done. Congradulation.
+
+### 4. Clean Up
+If you don't want use this any more, there is a easy way to uninstall.
+- Uninstall the Docker
+- Delete the files
+- Done
 
