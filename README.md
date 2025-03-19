@@ -3,8 +3,18 @@
 This is new branch of this project, we are going to apply reasoning model for better solution.
 
 ## Method
+Well... No matter which Approach, clean the data is first step...... :-(
+
+The documents are really really old.... And some formular even cannot been convert.... So strange....
+
+Using olmOCR for convert documents.
+
 ### Simple Approach: Distill from DeepSeek R1
 #### Step 1: Use DeepSeek to Extend the Chain of Thougt.
+This step is simple, just put the question into DeepSeek R1 and let it generate the Chain of Thought, and then record them.
+
+The Dataset will upload to Huggingface.
+
 
 ### Hard Approach: SFT + GRPO, repeat DeepSeek R1 Zero
 #### Step 1: Rebuild Dataset
